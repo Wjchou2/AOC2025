@@ -4581,7 +4581,6 @@ R10`;
 const lines = txt.split("\n");
 let countZero = 0;
 let currentNum = 50;
-
 Array.from(lines).forEach(function (elm) {
     const num = Number(elm.substring(1));
     for (let i = 0; i < num; i++) {
